@@ -67,6 +67,10 @@
 	width: 38%;
 }
 
+.panel .col-xs-6 {
+	width: 49%;
+}
+
 .panel .col-xs-7 {
 	width: 58%;
 }
@@ -81,4 +85,44 @@
 
 .text-center {
 	text-align: center;
+}
+
+.moduleconfig-content .btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 4px 8px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.moduleconfig-content .btn:focus, .bootstrap .btn:active:focus, .bootstrap .btn.active:focus {
+    outline: thin dotted;
+    outline-offset: -2px;
+}
+
+.moduleconfig-content .btn-success {
+    background-color: #79bd3c;
+    border-color: #6caa36;
+    color: #fff;
+}
+
+.moduleconfig-content .btn-success:hover, .moduleconfig-content .btn-success:focus, .moduleconfig-content .btn-success:active, .moduleconfig-content .btn-success.active {
+    background-color: #609730;
+    border-color: #4f7c27;
+    color: #fff;
+}
+
+.moduleconfig-content .btn-lg {
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 1.33;
+    padding: 10px 16px;
 }
