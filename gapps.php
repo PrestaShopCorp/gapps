@@ -43,7 +43,7 @@ class Gapps extends Module
 		parent::__construct();
 
 		$this->displayName = $this->l('Google Apps');
-		$this->description = $this->l('');
+		$this->description = $this->l('Get email, cloud storage, collaboration tools and other business apps for your PrestaShop store with Google');
 
 		if (_PS_VERSION_ < '1.5')
 			require(_PS_MODULE_DIR_.$this->name.'/backward_compatibility/backward.php');
