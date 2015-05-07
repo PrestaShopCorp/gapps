@@ -2,7 +2,7 @@
 <module>
 	<name>gapps</name>
 	<displayName><![CDATA[Google Apps]]></displayName>
-	<version><![CDATA[1.0.0]]></version>
+	<version><![CDATA[1.0.1]]></version>
 	<description><![CDATA[Get email, cloud storage, collaboration tools and other business apps for your PrestaShop store with Google]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[others]]></tab>
